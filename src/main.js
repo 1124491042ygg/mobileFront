@@ -20,6 +20,8 @@ Vue.use(MintUI)
 //引入axios文件
 import axios from 'axios';
 
+axios.defaults.baseURL = '/api'  //关键代码
+
 //引入vue-resource
 import VueResource from 'vue-resource';
 Vue.use(VueResource)

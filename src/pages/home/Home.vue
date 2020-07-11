@@ -20,6 +20,13 @@
                         </router-link>
                     </div>
                 </li>
+                <li>
+                    <div>
+                        <router-link to="/brower">
+                            <img src="/static/img/xuangou.jpg" alt="浏览">
+                        </router-link>
+                    </div>
+                </li>
 
                  <li>
                     <div>
@@ -33,14 +40,6 @@
                     <div>
                         <router-link to="/">
                             <img src="/static/img/pingbao.jpg" alt="屏保">
-                        </router-link>
-                    </div>
-                </li>
-
-                 <li>
-                    <div>
-                        <router-link to="/">
-                            <img src="/static/img/dingzhi.jpg" alt="选购">
                         </router-link>
                     </div>
                 </li>

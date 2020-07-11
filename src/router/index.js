@@ -26,6 +26,8 @@ import upaddress from "@/pages/user/children/upaddress"
 import cart from '@/pages/user/children/cart'
 import main from "@/pages/user/main"
 import collection from "@/pages/user/children/collection"
+import brower from "@/pages/brower/brower"
+
 Vue.use(Router)
 
 export default new Router({
@@ -62,6 +64,7 @@ export default new Router({
       ]
     },
     { path: '/collection', name: 'collection', component: collection },
+     { path: '/brower', name: 'brower', component: brower },
 
     { path: '/', name: 'Home', component: Home },
 
